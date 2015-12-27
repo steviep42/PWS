@@ -1,0 +1,11 @@
+Package: PWS
+Type: Package
+Title: Final Project for STATS290
+Version: 1.0
+Date: 2011-03-12
+Author: William S. Pittard <wsp@emory.edu> 
+Maintainer: <wsp@emory.edu>
+Description: Implmements the PWS project 
+License: LGPL-2.1
+LazyLoad: yes
+Packaged: 2014-07-15 23:05:46 UTC; fender

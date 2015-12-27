@@ -1,0 +1,36 @@
+
+R version 2.12.1 (2010-12-16)
+Copyright (C) 2010 The R Foundation for Statistical Computing
+ISBN 3-900051-07-0
+Platform: i486-pc-linux-gnu (32-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(PWS)
+> 
+> myWobj = getWeatherData("Palo Alto,CA",5)
+Loading required package: bitops
+[1] "Finding lat/lon info for the specified locale(s): Palo Alto,CA"
+Loading required package: DBI
+[1] "Querying the local Geonames database to see whats nearby"
+[1] "Checking for locations within 5 miles (approximate) of PaloAlto,CA"
+[1] "Now checking Wunderground to find stations"
+Progress:  1 on 49  Progress:  2 on 49  Progress:  3 on 49  Progress:  4 on 49  Progress:  5 on 49  Progress:  6 on 49  Progress:  7 on 49  Progress:  8 on 49  Progress:  9 on 49  Progress: 10 on 49  Progress: 11 on 49  Progress: 12 on 49  Progress: 13 on 49  Progress: 14 on 49  Progress: 15 on 49  Progress: 16 on 49  Progress: 17 on 49  Progress: 18 on 49  Progress: 19 on 49  Progress: 20 on 49  Progress: 21 on 49  Progress: 22 on 49  Progress: 23 on 49  Progress: 24 on 49  Progress: 25 on 49  Progress: 26 on 49  Progress: 27 on 49  Progress: 28 on 49  Progress: 29 on 49  Progress: 30 on 49  Progress: 31 on 49  Progress: 32 on 49  Progress: 33 on 49  Progress: 34 on 49  Progress: 35 on 49  Progress: 36 on 49  Progress: 37 on 49  Progress: 38 on 49  Progress: 39 on 49  Progress: 40 on 49  Progress: 41 on 49  Progress: 42 on 49  Progress: 43 on 49  Progress: 44 on 49  Progress: 45 on 49  Progress: 46 on 49  Progress: 47 on 49  Progress: 48 on 49  Progress: 49 on 49  Done!
+                    [1] "Found 30 Personal Weather Stations within 5 miles"
+[1] "Now checking Wunderground for the station reports"
+Progress:  1 on 30  Progress:  2 on 30  Progress:  3 on 30  Progress:  4 on 30  Progress:  5 on 30  Progress:  6 on 30  Progress:  7 on 30  Progress:  8 on 30  Progress:  9 on 30  Progress: 10 on 30  Progress: 11 on 30  Progress: 12 on 30  Progress: 13 on 30  Progress: 14 on 30  Progress: 15 on 30  Progress: 16 on 30  Progress: 17 on 30  Progress: 18 on 30  Progress: 19 on 30  Progress: 20 on 30  Progress: 21 on 30  Progress: 22 on 30  Progress: 23 on 30  Progress: 24 on 30  Progress: 25 on 30  Progress: 26 on 30  Progress: 27 on 30  Progress: 28 on 30  Progress: 29 on 30  Progress: 30 on 30  Done!
+Creating a new generic function for "plot" in ".GlobalEnv"
+> summary(wobj)
+Execution halted
