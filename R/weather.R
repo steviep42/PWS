@@ -1,4 +1,4 @@
-# STATS290 Final Project - Personal Weather Station. William S. Pittard
+# Steve Pittard - ticopittard@gmail.com
 #
 # This package attempts to implement items 1 through 4 described in the Weather
 # project PDF file in the project folder on the STATS290 website. I've implemented
